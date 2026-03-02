@@ -10,8 +10,4 @@ RUN npm install
 
 COPY . .
 
-ENV PORT=1234
-
-EXPOSE 1234
-
-CMD ["sh", "-c", "pnpm exec y-websocket --port $PORT"]
+CMD ["sh", "-c", "PORT=$PORT pnpm exec y-websocket"]

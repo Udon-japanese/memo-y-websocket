@@ -1,0 +1,7 @@
+{
+  "name": "memo-y-websocket",
+  "private": true,
+  "dependencies": {
+    "@y/websocket-server": "^0.1.5"
+  }
+}
